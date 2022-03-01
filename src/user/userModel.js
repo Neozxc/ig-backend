@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
 
 const igUserSchema = new mongoose.Schema({
-    username: {
-        type: String,
-    },
-
     email: {
         type: String
+    },
+
+    username: {
+        type: String,
     },
 
     password: {
